@@ -1,7 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
 v2.9.1
-o using  ConfigParser to get prepared to github as my repository (mail parameter, rrd path in *.py)
+o using ConfigParser to get prepared to github as my repository (mail parameter, rrd path in *.py)
 v2.9.0
 o now using html based weather report overview for mail service (to do: attaching historic data table)
 v2.8.2

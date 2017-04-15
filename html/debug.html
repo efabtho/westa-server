@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #e0e0e0;
+                font-family: Arial;
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                height: 20px;
+            }
+            #spalte1        {width: 20%;}
+            #spalte2        {width: 30%;}
+            #spalte3        {width: 50%;}
+
+            th, td          {padding: 2px;}
+            th              {text-align: left;}
+            td              {text-align: left;}
+        </style>
+
+        <meta charset="utf-8">
+        <title>Wetterstation SOHLDFELD</title>
+    </head>
+    <body>
+        <h1>Debug-Informationen</h1>
+    </body>
+
+    <ul>
+        <li><a href="../index.php">zurück zur Hauptseite</a></li>
+    </ul>
+
+    <h3>letzte Rohdaten aus der rrd Database:</h3>
+    <p>
+        <object data="../reports/UserRQ_lastupdate.txt" type="text/plain" width="1500" height="100">
+        </object>
+    </p> 
+
+    <table>
+         <colgroup id="spalte1">
+              <col>
+         </colgroup>
+         <colgroup id="spalte2">
+              <col>
+         </colgroup>
+         <colgroup id="spalte3">
+              <col>
+         </colgroup>
+         <tr>
+             <th>Index</th>
+             <th>Label</th>
+             <th>Referenz</th>
+         </tr>
+         <tr>
+             <td>0</td>
+             <td>./.</td>
+             <td>Messzeitpunkt der Aufzeichnung</td>
+         </tr>    
+         <tr>
+             <td>1</td>
+             <td>temps1</td>
+             <td>Temp. Dachgeschoss</td>
+         </tr>    
+         <tr>
+             <td>2</td>
+             <td>temps2</td>
+             <td>Temp. Keller</td>
+         </tr> 
+         <tr>
+             <td>9</td>
+             <td>hums1</td>
+             <td>Luftfeuchtigkeit Dachgeschoss</td>
+         </tr>    
+         <tr>
+             <td>10</td>
+             <td>hums2</td>
+             <td>Luftfeuchtigkeit Keller</td>
+         </tr>    
+         <tr>
+             <td>17</td>
+             <td>temps9</td>
+             <td>Temp. Wettermast</td>
+         </tr>    
+         <tr>
+             <td>18</td>
+             <td>hums9</td>
+             <td>Luftfeuchtigkeit Wettermast</td>
+         </tr>    
+         <tr>
+             <td>19</td>
+             <td>winds9</td>
+             <td>Windgeschw. Wettermast</td>
+         </tr>    
+         <tr>
+             <td>20</td>
+             <td>rains9</td>
+             <td>Wippenzähler für Regen Wettermast</td>
+         </tr>    
+         <tr>
+             <td>21</td>
+             <td>israins9</td>
+             <td>Regenstatus Wettermast</td>
+         </tr>    
+         <tr>
+             <td>22</td>
+             <td>temps10</td>
+             <td>BMP180 Temperaturfühler</td>
+         </tr>    
+         <tr>
+             <td>23</td>
+             <td>psea</td>
+             <td>BMP180 Luftdruck</td>
+         </tr>      
+    </table>
+
+    <p>
+        <object data="../reports/UserRQ_uptime.txt" type="text/plain" width="1500" height="100">
+        </object>
+    </p> 
+
+</html>

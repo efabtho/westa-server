@@ -1,0 +1,51 @@
+(c) 2017 Thomas Fabian, Hildesheim
+
+v2.9.1
+o using  ConfigParser to get prepared to github as my repository (mail parameter, rrd path in *.py)
+v2.9.0
+o now using html based weather report overview for mail service (to do: attaching historic data table)
+v2.8.2
+o added yearly overview in 'historic data table'
+v2.8.1
+o bugfixing because including html-file only worked for Firefox (now directly generating min-max-values.html)
+v2.8.0
+o generated html table for showing 'historic data'
+v2.7.1
+o debug menu: showing uptime of server
+v2.7.0
+o counting days with rain fall
+v2.6.3
+o html table layout optimized for displaying current data
+v2.6
+o enhanced static features: Counters for 'Frosttage', 'Dauerfrosttage', 'Tropische Nächte'
+o calc 'MaxDelta' of temp. per day
+v2.5.5
+o 90 days views integrated in html
+o included backup for historic min/max data sets
+v2.5.4
+o prepared 90 days graphic generator scripts. to do: crontab adjustments, html adaptions
+v2.5.3
+o optimized col alignment in min/max table
+o mv instead of cp generated png files to web server directory
+v2.5.2
+o added min/max statistics for each month / year
+v2.5.1
+o added min/max statistics as attachment to email
+v2.5
+o added min/max statistics using MySQLDB
+v2.4.1
+o added png attachments to weather report emails
+v2.4
+o added weather report on request feature, 5 min polling intervall for weather report requests
+v2.3.2
+o optimized colour setup for graphics
+v2.3.1
+o text adapted to new sensor locations
+v2.3
+o sensor switch (DG->Sz, Aussen->DG)
+o location change for RPi3: DG->Sz; hoping for better reception and stable connections
+o adaption of graphics and text still missing
+v2.2.2
+o optimzed x grid parameters for displaying last 7 days in charts
+v2.2.1
+o integrated debug info output

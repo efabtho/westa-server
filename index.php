@@ -27,12 +27,15 @@
     
     <body>
         <h1>Willkommen auf der Webseite der Wetterstation Sohldfeld</h1>
-        <h5>V2.9.10beta</h5>
+        <h5>
+	    <?php
+                echo file_get_contents('/var/www/html/westa_version.txt');
+            ?>
+	</h5>
     </body>
 
     <!-- Aktuelle Werte aus der rrd-DB und sql-DB holen und in txt-Dateien für die Anzeige schreiben -->
     <body>
-	<!--    shell_exec("sudo /home/pi/westa/prod/src/GetDataFromRRD.sh"); -->
         <?php
             shell_exec("/var/www/html/CallGetDataFromRRD.sh");
             shell_exec("/var/www/html/CallGenerateStatisticTable.sh");

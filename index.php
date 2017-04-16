@@ -27,7 +27,7 @@
     
     <body>
         <h1>Willkommen auf der Webseite der Wetterstation Sohldfeld</h1>
-        <h5>V2.9.3beta</h5>
+        <h5>V2.9.10beta</h5>
     </body>
 
     <!-- Aktuelle Werte aus der rrd-DB und sql-DB holen und in txt-Dateien für die Anzeige schreiben -->

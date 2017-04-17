@@ -1,5 +1,6 @@
 (c) 2017 Thomas Fabian, Hildesheim
-
+v2.9.11
+o switched to git source control and autom. install process of web site
 v2.9.1
 o using ConfigParser to get prepared to github as my repository (mail parameter, rrd path in *.py)
 v2.9.0

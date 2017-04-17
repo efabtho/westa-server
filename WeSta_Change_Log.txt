@@ -1,5 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v2.9.12
+o showing web server source path (var setting in etc/environment) in debug info menu
 v2.9.11
 o switched to git source control and autom. install process of web site
 v2.9.1

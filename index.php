@@ -38,7 +38,7 @@
     <body>
         <?php
             shell_exec("/var/www/html/CallGetDataFromRRD.sh");
-            shell_exec("/var/www/html/CallGenerateStatisticTable.sh");
+            shell_exec("/var/www/html/CallGenerateStatisticTable.sh min-max-values_generated.html WebModeActiv");
         ?>
     </body>
 

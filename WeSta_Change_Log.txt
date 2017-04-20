@@ -1,7 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
 v3.0.0
-o bugfixing in generateStatistics.py (support two modes now: web/mail)
+o bugfixing in generateStatistics.py (supports two modes now: web/mail)
 v2.9.13
 o mailWeatherReport now attaches html file with long term statistics
 v2.9.12

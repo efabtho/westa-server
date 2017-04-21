@@ -1,5 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.0.1
+o harmonized css settings, added missing return links to some pages
 v3.0.0
 o bugfixing in generateStatistics.py (supports two modes now: web/mail)
 v2.9.13

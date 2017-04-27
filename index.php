@@ -168,6 +168,7 @@
         <li><a href="html/last_7days.html">Die Daten der letzten 7 Tage</a></li>
         <li><a href="html/last_30days.html">Die Daten der letzten 30 Tage</a></li>
         <li><a href="html/last_90days.html">Die Daten der letzten 90 Tage</a></li>
+        <li><a href="html/since_start.html">Die Daten seit Aufzeichnungsbeginn</a></li>
         <li><a href="html/min-max-values_generated.html">Historiendaten: Statistische Werte</a></li>
     </ul>
     </p>

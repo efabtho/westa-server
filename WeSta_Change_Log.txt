@@ -1,5 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.1.0
+o added new html page for viewing 'data since start of recording'
 v3.0.1
 o harmonized css settings, added missing return links to some pages
 v3.0.0

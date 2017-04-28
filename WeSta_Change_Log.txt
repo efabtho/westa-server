@@ -1,5 +1,8 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.1.2
+o added log file cleaning script
+
 v3.1.1
 o bugfix in since-start chart generator script
 

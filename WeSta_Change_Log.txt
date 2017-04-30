@@ -1,11 +1,11 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.1.3
+o changed src dir of daily Min/Max Temp calc scripts
 v3.1.2
 o added log file cleaning script
-
 v3.1.1
 o bugfix in since-start chart generator script
-
 v3.1.0
 o added new html page for viewing 'data since start of recording'
 v3.0.1

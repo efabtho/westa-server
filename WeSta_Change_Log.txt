@@ -1,5 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.1.4
+o using /etc/envirionment also for rrd db path; added ...CreateAirPressure_Last7Days.sh to git ctrl
 v3.1.3
 o changed src dir of daily Min/Max Temp calc scripts
 v3.1.2

@@ -1,5 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.1.4.1
+o fix in GetDataFromRRD.sh: cp environment to txt file
 v3.1.4
 o using /etc/envirionment also for rrd db path; added ...CreateAirPressure_Last7Days.sh to git ctrl
 v3.1.3

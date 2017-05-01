@@ -1,5 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.1.6
+o added CreateChart_AirPressure_Last24h.sh to git ctrl
 v3.1.5
 o showing westa.log in debug menu of web server
 v3.1.4.1

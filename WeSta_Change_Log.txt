@@ -1,5 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.1.7
+o added *Humidity*.sh to git ctrl, adapted crontab setting
 v3.1.6
 o added CreateChart_AirPressure_Last24h.sh to git ctrl
 v3.1.5

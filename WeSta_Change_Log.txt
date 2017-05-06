@@ -1,5 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.2.2
+o added *Temp*.sh to git ctrl
 v3.2.1
 o added *wind*.sh to git ctrl
 v3.2.0

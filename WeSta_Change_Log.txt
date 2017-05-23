@@ -1,5 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.2.4
+o added background drawing for home page
 v3.2.3.1
 o added debug info for logging 'wippensensor' counts (to verify rainfall calc)
 v3.2.3

@@ -4,7 +4,13 @@
         <style>
             body {
                 background-color: #e0e0e0;
+		background-image: url(./html/images/westa-logo.jpg);
+		background-size: auto 1800px;
+		background-repeat: no-repeat;
                 font-family: Arial;
+            }
+	    span.highlight {
+		background-color: navajowhite;
             }
             table, th, td {
                 border: 1px solid black;
@@ -164,20 +170,20 @@
     </table>
 
     <ul>
-        <li><a href="html/last_24h.html">Die Daten der letzten 24h</a></li>
-        <li><a href="html/last_7days.html">Die Daten der letzten 7 Tage</a></li>
-        <li><a href="html/last_30days.html">Die Daten der letzten 30 Tage</a></li>
-        <li><a href="html/last_90days.html">Die Daten der letzten 90 Tage</a></li>
-        <li><a href="html/since_start.html">Die Daten seit Aufzeichnungsbeginn</a></li>
-        <li><a href="html/min-max-values_generated.html">Historiendaten: Statistische Werte</a></li>
+        <li><a href="html/last_24h.html"><span class="highlight">Die Daten der letzten 24h</span></a></li>
+        <li><a href="html/last_7days.html"><span class="highlight">Die Daten der letzten 7 Tage</span></a></li>
+        <li><a href="html/last_30days.html"><span class="highlight">Die Daten der letzten 30 Tage</span></a></li>
+        <li><a href="html/last_90days.html"><span class="highlight">Die Daten der letzten 90 Tage</span></a></li>
+        <li><a href="html/since_start.html"><span class="highlight">Die Daten seit Aufzeichnungsbeginn</span></a></li>
+        <li><a href="html/min-max-values_generated.html"><span class="highlight">Historiendaten: Statistische Werte</span></a></li>
     </ul>
     </p>
         <h4></h4>
     <p>
         
     <ul>
-        <li><a href="html/debug.html">Debug Informationen</a></li>
-        <li><a href="html/changeLog.html">Change Log</a></li>
+        <li><a href="html/debug.html"><span class="highlight">Debug Informationen</span></a></li>
+        <li><a href="html/changeLog.html"><span class="highlight">Change Log</span></a></li>
     </ul>
 
     <body>

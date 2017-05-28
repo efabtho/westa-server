@@ -1,5 +1,8 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.2.4.1
+o exception handling optimized for mailWeatherReportOnRequest.py.
+  hope for more stability when polling for new 'get wr' commands in mailbox
 v3.2.4
 o added background drawing for home page
 v3.2.3.1

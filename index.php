@@ -32,6 +32,7 @@
     </head>
     
     <body>
+	<!-- Autorefresh 24/7 Anzeigedisplay <META HTTP-EQUIV="refresh" content="60; URL=http://192.168.178.38"> -->
         <h1>Willkommen auf der Webseite der Wetterstation Sohldfeld</h1>
         <h5>
 	    <?php

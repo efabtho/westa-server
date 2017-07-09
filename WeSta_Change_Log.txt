@@ -1,7 +1,9 @@
 (c) 2017 Thomas Fabian, Hildesheim
-
+v3.2.5
+o prepared for new sensor in living room
 v3.2.4.2
 o added time stamp in error log in mailWeatherReportOnRequest.py
+o disabled wlan, established LAN connection for testing stability issues (server not reachable)
 v3.2.4.1
 o exception handling optimized for mailWeatherReportOnRequest.py.
   hope for more stability when polling for new 'get wr' commands in mailbox

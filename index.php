@@ -168,6 +168,22 @@
                 </td>
             </tr>
         </tbody>
+        <tr>
+            <td>Temperatur Wohnzimmer:</td>
+            <td>   
+                <?php
+                echo file_get_contents('/var/www/html/reports/UserRQ_curTempLivingRoom.txt');
+                ?>         
+            </td>
+        </tr>
+        <tr>
+            <td>Luftfeuchtigkeit Wohnzimmer:</td>
+            <td>   
+              	<?php
+        	    echo file_get_contents('/var/www/html/reports/UserRQ_curHumLivingRoom.txt');
+            	?>         
+            </td>
+        </tr>
     </table>
 
     <ul>

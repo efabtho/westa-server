@@ -1,4 +1,6 @@
 (c) 2017 Thomas Fabian, Hildesheim
+v3.2.5.1
+o  added living room sensor to weather report email
 v3.2.5
 o prepared for new sensor in living room
 v3.2.4.2

@@ -125,63 +125,63 @@
             </td>
         </tr>
         <tbody id="zeilengruppe">
-            <tr>
-                <td>Temperatur Eltern-Schlafzimmer:</td>
-                <td>    
-                    <?php
-                    echo file_get_contents('/var/www/html/reports/UserRQ_curTempParBedroom.txt');
-                    ?>         
-                </td>
-            </tr>
+	        <tr>
+	            <td>Temperatur Dachgeschoss:</td>
+	            <td>   
+	                <?php
+	                echo file_get_contents('/var/www/html/reports/UserRQ_curTempTopFloor.txt');
+	                ?>         
+	            </td>
+	        </tr>
+	        <tr>
+	            <td>Luftfeuchtigkeit Dachgeschoss:</td>
+	            <td>   
+	              	<?php
+	        	    echo file_get_contents('/var/www/html/reports/UserRQ_curHumTopFloor.txt');
+	            	?>         
+	            </td>
+	        </tr>
         </tbody>
-        <tr>
-            <td>Temperatur Dachgeschoss:</td>
-            <td>   
-                <?php
-                echo file_get_contents('/var/www/html/reports/UserRQ_curTempTopFloor.txt');
-                ?>         
-            </td>
-        </tr>
-        <tr>
-            <td>Luftfeuchtigkeit Dachgeschoss:</td>
-            <td>   
-              	<?php
-        	    echo file_get_contents('/var/www/html/reports/UserRQ_curHumTopFloor.txt');
-            	?>         
-            </td>
-        </tr>
+	<tr>
+		<td>Temperatur Eltern-Schlafzimmer:</td>
+	        <td>    
+	        	<?php
+	            	echo file_get_contents('/var/www/html/reports/UserRQ_curTempParBedroom.txt');
+	            	?>         
+		</td>
+	</tr>
         <tbody id="zeilengruppe">       
-            <tr>
-                <td>Temperatur Keller:</td>
-                <td>
-                <?php
-                    echo file_get_contents('/var/www/html/reports/UserRQ_curTempCellar.txt');
-                    ?>     
-                </td>
-            </tr>
-            <tr>
-                <td>Luftfeuchtigkeit Keller:</td>
-                <td>
-                    <?php
-                    echo file_get_contents('/var/www/html/reports/UserRQ_curHumCellar.txt');
-                    ?>     
-                </td>
-            </tr>
+	        <tr>
+	            <td>Temperatur Wohnzimmer:</td>
+	            <td>   
+	                <?php
+	                echo file_get_contents('/var/www/html/reports/UserRQ_curTempLivingRoom.txt');
+	                ?>         
+	            </td>
+	        </tr>
+	        <tr>
+	            <td>Luftfeuchtigkeit Wohnzimmer:</td>
+	            <td>   
+	              	<?php
+	        	    echo file_get_contents('/var/www/html/reports/UserRQ_curHumLivingRoom.txt');
+	            	?>         
+	            </td>
+	        </tr>
         </tbody>
         <tr>
-            <td>Temperatur Wohnzimmer:</td>
-            <td>   
-                <?php
-                echo file_get_contents('/var/www/html/reports/UserRQ_curTempLivingRoom.txt');
-                ?>         
+            <td>Temperatur Keller:</td>
+            <td>
+            <?php
+                echo file_get_contents('/var/www/html/reports/UserRQ_curTempCellar.txt');
+                ?>     
             </td>
         </tr>
         <tr>
-            <td>Luftfeuchtigkeit Wohnzimmer:</td>
-            <td>   
-              	<?php
-        	    echo file_get_contents('/var/www/html/reports/UserRQ_curHumLivingRoom.txt');
-            	?>         
+            <td>Luftfeuchtigkeit Keller:</td>
+            <td>
+                <?php
+                echo file_get_contents('/var/www/html/reports/UserRQ_curHumCellar.txt');
+                ?>     
             </td>
         </tr>
     </table>

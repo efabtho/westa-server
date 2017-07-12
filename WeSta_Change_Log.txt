@@ -1,4 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
+
+v3.2.6.1
+o new order of sensor infos in website/mail defined
 v3.2.6
 o installed living room sensor
 v3.2.5.1

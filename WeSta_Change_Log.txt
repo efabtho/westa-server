@@ -1,5 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.2.7.1
+o maintainSQLdb.py now does daily rainfall calc
 v3.2.7
 o added rainfall data to statistic tables (sql table is prepared, but daily measurement is so far missing)
 v3.2.6.1

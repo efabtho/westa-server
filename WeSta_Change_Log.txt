@@ -1,4 +1,6 @@
 (c) 2017 Thomas Fabian, Hildesheim
+v3.2.7.4
+o preparing OWM integration in index.php
 v3.2.7.3
 o disabled debug output of last rrd entries (rainfall calc verified)  
 v3.2.7.2

@@ -1,4 +1,6 @@
 (c) 2017 Thomas Fabian, Hildesheim
+v3.2.7.5beta (2017-09-24)
+o added OWM data to server info page (python version issue still unfixed!) 
 v3.2.7.4
 o preparing OWM integration in index.php
 v3.2.7.3

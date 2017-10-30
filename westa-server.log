@@ -1,3 +1,94 @@
 /var/www/html
 /var/www/html
 /var/www/html
+Traceback (most recent call last):
+  File "./getOWMWeatherForecast.py", line 63, in <module>
+    getOWMForecast(API_Key, Location)
+  File "./getOWMWeatherForecast.py", line 25, in getOWMForecast
+    latertoday = forecast.get_weather_at(in3hours)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/forecaster.py", line 404, in get_weather_at
+    timeformatutils.to_UNIXtime(timeobject))
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
+    'not included in the weather coverage range')
+pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
+  File "./getOWMWeatherForecast.py", line 63, in <module>
+    getOWMForecast(API_Key, Location)
+  File "./getOWMWeatherForecast.py", line 25, in getOWMForecast
+    latertoday = forecast.get_weather_at(in3hours)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/forecaster.py", line 404, in get_weather_at
+    timeformatutils.to_UNIXtime(timeobject))
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
+    'not included in the weather coverage range')
+pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
+  File "./getOWMWeatherForecast.py", line 63, in <module>
+    getOWMForecast(API_Key, Location)
+  File "./getOWMWeatherForecast.py", line 25, in getOWMForecast
+    latertoday = forecast.get_weather_at(in3hours)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/forecaster.py", line 404, in get_weather_at
+    timeformatutils.to_UNIXtime(timeobject))
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
+    'not included in the weather coverage range')
+pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
+  File "./getOWMWeatherForecast.py", line 63, in <module>
+    getOWMForecast(API_Key, Location)
+  File "./getOWMWeatherForecast.py", line 25, in getOWMForecast
+    latertoday = forecast.get_weather_at(in3hours)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/forecaster.py", line 404, in get_weather_at
+    timeformatutils.to_UNIXtime(timeobject))
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
+    'not included in the weather coverage range')
+pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
+  File "./getOWMWeatherForecast.py", line 63, in <module>
+    getOWMForecast(API_Key, Location)
+  File "./getOWMWeatherForecast.py", line 25, in getOWMForecast
+    latertoday = forecast.get_weather_at(in3hours)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/forecaster.py", line 404, in get_weather_at
+    timeformatutils.to_UNIXtime(timeobject))
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
+    'not included in the weather coverage range')
+pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
+  File "./getOWMWeatherForecast.py", line 63, in <module>
+    getOWMForecast(API_Key, Location)
+  File "./getOWMWeatherForecast.py", line 25, in getOWMForecast
+    latertoday = forecast.get_weather_at(in3hours)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/forecaster.py", line 404, in get_weather_at
+    timeformatutils.to_UNIXtime(timeobject))
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
+    'not included in the weather coverage range')
+pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
+  File "./getOWMWeatherForecast.py", line 63, in <module>
+    getOWMForecast(API_Key, Location)
+  File "./getOWMWeatherForecast.py", line 25, in getOWMForecast
+    latertoday = forecast.get_weather_at(in3hours)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/forecaster.py", line 404, in get_weather_at
+    timeformatutils.to_UNIXtime(timeobject))
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
+    'not included in the weather coverage range')
+pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
+  File "./getOWMWeatherForecast.py", line 63, in <module>
+    getOWMForecast(API_Key, Location)
+  File "./getOWMWeatherForecast.py", line 25, in getOWMForecast
+    latertoday = forecast.get_weather_at(in3hours)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/forecaster.py", line 404, in get_weather_at
+    timeformatutils.to_UNIXtime(timeobject))
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
+    'not included in the weather coverage range')
+pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
+  File "./getOWMWeatherForecast.py", line 63, in <module>
+    getOWMForecast(API_Key, Location)
+  File "./getOWMWeatherForecast.py", line 25, in getOWMForecast
+    latertoday = forecast.get_weather_at(in3hours)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/forecaster.py", line 404, in get_weather_at
+    timeformatutils.to_UNIXtime(timeobject))
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
+    'not included in the weather coverage range')
+pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
+  File "./getOWMWeatherForecast.py", line 63, in <module>
+    getOWMForecast(API_Key, Location)
+  File "./getOWMWeatherForecast.py", line 25, in getOWMForecast
+    latertoday = forecast.get_weather_at(in3hours)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/forecaster.py", line 404, in get_weather_at
+    timeformatutils.to_UNIXtime(timeobject))
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
+    'not included in the weather coverage range')
+pyowm.exceptions.not_found_error.NotFoundError

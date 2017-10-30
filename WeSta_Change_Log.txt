@@ -1,7 +1,9 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.3.1beta (2017-10-30)
+o corrected sunset/sunrise time form OWM according to day light saving time status
 v3.3.0beta (2017-09-24)
-o first beta version with OWM data on server page, still to come: OWM integration in weather mail
+o first beta version with OWM data on server page, still to come: OWM integration in weather report email
 v3.2.7.5beta (2017-09-24)
 o added OWM data to server info page (python version issue still unfixed!) 
 v3.2.7.4

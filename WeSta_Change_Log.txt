@@ -1,5 +1,9 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.3.2beta (2017-10-30)
+o getOWMWeatherForecast.py only on westa-server path to avoid redundancy, so no dev/prod version possible.
+  This module can only be called form server path, to get the proper python version required for OWM functions.
+  Found no other way to get req. python version accept using she-bang.
 v3.3.1beta (2017-10-30)
 o corrected sunset/sunrise time form OWM according to day light saving time status
 v3.3.0beta (2017-09-24)

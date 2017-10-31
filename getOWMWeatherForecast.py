@@ -42,7 +42,7 @@ def getOWMForecast(API_Key, Location):
         sunrise = (datetime.datetime.strptime(w.get_sunrise_time('iso'),"%Y-%m-%d %H:%M:%S+00") + \
                    datetime.timedelta(hours=2)).strftime("%H:%M")
         
-    fh = open("UserRQ_SunriseTime.txt","w")
+    fh = open("UserRQ_curSunriseTime.txt","w")
     print(sunrise,"h", file=fh)
     fh.close()
 
@@ -54,13 +54,13 @@ def getOWMForecast(API_Key, Location):
         sunset = (datetime.datetime.strptime(w.get_sunset_time('iso'),"%Y-%m-%d %H:%M:%S+00") + \
                   datetime.timedelta(hours=2)).strftime("%H:%M")
         
-    fh = open("UserRQ_SunsetTime.txt","w")
+    fh = open("UserRQ_curSunsetTime.txt","w")
     print(sunset,"h", file=fh)
     fh.close()
 
     # write cloud amount to txt file
     clouds = str(decoded_w['clouds'])
-    fh = open("UserRQ_CloudAmount.txt","w")
+    fh = open("UserRQ_curCloudAmount.txt","w")
     print(clouds, "%", file=fh)
     fh.close()
 

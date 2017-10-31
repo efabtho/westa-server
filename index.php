@@ -190,7 +190,7 @@
 	            <td>Bewölkung (von OWM):</td>
 	            <td>  
 	                <?php
-	                echo file_get_contents('/var/www/html/reports/UserRQ_CloudAmount.txt');
+	                echo file_get_contents('/var/www/html/reports/UserRQ_curCloudAmount.txt');
 	                ?>        
 	            </td>
 	        </tr>
@@ -199,7 +199,7 @@
             <td>Sonnenaufgang (von OWM):</td>
             <td>
                 <?php
-                echo file_get_contents('/var/www/html/reports/UserRQ_SunriseTime.txt');
+                echo file_get_contents('/var/www/html/reports/UserRQ_curSunriseTime.txt');
                 ?>
             </td>
         </tr>
@@ -207,7 +207,7 @@
             <td>Sonnenuntergang (von OWM):</td>
             <td>
 		<?php
-                echo file_get_contents('/var/www/html/reports/UserRQ_SunsetTime.txt');
+                echo file_get_contents('/var/www/html/reports/UserRQ_curSunsetTime.txt');
                 ?>    
             </td>
         </tr>

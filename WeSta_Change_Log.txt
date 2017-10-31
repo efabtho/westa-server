@@ -1,11 +1,13 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.3.3 (2017-10-31)
+o included OWM data to weather report email
 v3.3.2beta (2017-10-30)
 o getOWMWeatherForecast.py only on westa-server path to avoid redundancy, so no dev/prod version possible.
-  This module can only be called form server path, to get the proper python version required for OWM functions.
+  This module can only be called from server path, to get the proper python version required for OWM functions.
   Found no other way to get req. python version accept using she-bang.
 v3.3.1beta (2017-10-30)
-o corrected sunset/sunrise time form OWM according to day light saving time status
+o corrected sunset/sunrise time from OWM according to day light saving time status
 v3.3.0beta (2017-09-24)
 o first beta version with OWM data on server page, still to come: OWM integration in weather report email
 v3.2.7.5beta (2017-09-24)

@@ -70,4 +70,43 @@ pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
     timeformatutils.to_UNIXtime(timeobject))
   File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
     'not included in the weather coverage range')
+pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/commons/weather_client.py", line 56, in _lookup_cache_or_invoke_API
+    response = urlopen(API_full_url, None, timeout)
+  File "/usr/lib/python3.4/urllib/request.py", line 153, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.4/urllib/request.py", line 461, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.4/urllib/request.py", line 571, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.4/urllib/request.py", line 499, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python3.4/urllib/request.py", line 433, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.4/urllib/request.py", line 579, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/var/www/html/getOWMWeatherForecast.py", line 75, in <module>
+    getOWMForecast(API_Key, Location)
+  File "/var/www/html/getOWMWeatherForecast.py", line 32, in getOWMForecast
+    observation     = owm.weather_at_place(Location)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/owm25.py", line 221, in weather_at_place
+    {'q': encoded_name,'lang': self._language})
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/commons/weather_client.py", line 90, in call_API
+    return self._lookup_cache_or_invoke_API(self._cache, url, timeout)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/commons/weather_client.py", line 61, in _lookup_cache_or_invoke_API
+    raise not_found_error.NotFoundError('The resource was not found')
+pyowm.exceptions.not_found_error.NotFoundErrorTraceback (most recent call last):
+  File "/var/www/html/getOWMWeatherForecast.py", line 75, in <module>
+    getOWMForecast(API_Key, Location)
+  File "/var/www/html/getOWMWeatherForecast.py", line 27, in getOWMForecast
+    latertoday = forecast.get_weather_at(in3hours)
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/forecaster.py", line 404, in get_weather_at
+    timeformatutils.to_UNIXtime(timeobject))
+  File "/usr/local/lib/python3.4/dist-packages/pyowm/webapi25/weatherutils.py", line 110, in find_closest_weather
+    'not included in the weather coverage range')
 pyowm.exceptions.not_found_error.NotFoundError

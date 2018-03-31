@@ -1,6 +1,7 @@
 #!/usr/bin/python3.4
 # -*- coding: utf-8 -*-
 
+# TFN 180331 fixed wrong sunrise/sunset time during summer time
 # TFN 171030 corrected sunset/sunrise time according to DST status
 # TFN 170924 getting further weather parameters using OWM service
 
@@ -8,7 +9,8 @@ import pyowm
 import json
 import datetime
 import configparser
-from time import gmtime
+import time
+
 
 DEBUG = False
 
@@ -34,8 +36,12 @@ def getOWMForecast(API_Key, Location):
     decoded_w       = json.loads(w.to_JSON())
     detailed_status = decoded_w['detailed_status']
 
+    now = time.localtime()  
+    if DEBUG:
+        print("Sommerzeit: ", now.tm_isdst) # DayLightSavingTime: 1 / winter time: 0
+        
     # write sunrise time to txt file
-    if gmtime()[8] == 0: # 0= keine Sommerzeit aktiv
+    if now.tm_isdst == 0: # winter time
         sunrise = (datetime.datetime.strptime(w.get_sunrise_time('iso'),"%Y-%m-%d %H:%M:%S+00") + \
                    datetime.timedelta(hours=1)).strftime("%H:%M")
     else:
@@ -47,7 +53,7 @@ def getOWMForecast(API_Key, Location):
     fh.close()
 
     # write sunset time to txt file
-    if gmtime()[8] == 0: # 0= keine Sommerzeit aktiv
+    if now.tm_isdst == 0: # winter time
         sunset = (datetime.datetime.strptime(w.get_sunset_time('iso'),"%Y-%m-%d %H:%M:%S+00") + \
                   datetime.timedelta(hours=1)).strftime("%H:%M")
     else:

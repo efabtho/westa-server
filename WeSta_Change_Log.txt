@@ -1,5 +1,7 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.3.4.2 (2018-03-31)
+o fixed DST bug (not detecting summer time)
 v3.3.4.1 (2017-12-09)
 o optimized dashed line styles in charts
 v3.3.5 (2017-12-03)

@@ -1,33 +1,49 @@
 (c) 2017 Thomas Fabian, Hildesheim
 
+v3.4beta (2018-03-31)
+o added detection of 'Sommertage' to system, no deep testing / still beta
+
 v3.3.4.2 (2018-03-31)
 o fixed DST bug (not detecting summer time)
+
 v3.3.4.1 (2017-12-09)
 o optimized dashed line styles in charts
+
 v3.3.5 (2017-12-03)
 o new colouring sceme for all temp data charts (marking 'summer day', 25grdC) 
+
 v3.3.4 (2017-11-04)
 o marking 25C line in summary chart
+
 v3.3.3 (2017-10-31)
 o included OWM data to weather report email
+
 v3.3.2beta (2017-10-30)
 o getOWMWeatherForecast.py only on westa-server path to avoid redundancy, so no dev/prod version possible.
   This module can only be called from server path, to get the proper python version required for OWM functions.
   Found no other way to get req. python version accept using she-bang.
+
 v3.3.1beta (2017-10-30)
 o corrected sunset/sunrise time from OWM according to day light saving time status
+
 v3.3.0beta (2017-09-24)
 o first beta version with OWM data on server page, still to come: OWM integration in weather report email
+
 v3.2.7.5beta (2017-09-24)
 o added OWM data to server info page (python version issue still unfixed!) 
+
 v3.2.7.4
 o preparing OWM integration in index.php
+
 v3.2.7.3
 o disabled debug output of last rrd entries (rainfall calc verified)  
+
 v3.2.7.2
 o now with rainfall statistics (monthly, yearly)
+
 v3.2.7.1
 o maintainSQLdb.py now does daily rainfall calc
+
 v3.2.7
 o added rainfall data to statistic tables (sql table is prepared, but daily measurement is so far missing)
 v3.2.6.1
